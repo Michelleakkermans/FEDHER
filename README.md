@@ -60,27 +60,28 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  De screenreader deed alles netjes oplezen van de site. Dit is iets wat wil zelf ook echt wil doen met mijn site en ik kan dit dus ook echt als voorbeeld gebruiken. 
 
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  Met de muis is de site heel goed en duidelijk te bedienen. Elke button heeft een duidelijke active state en hoover. 
+  Met het toetsenbord is dit hetzelfde geval, lijkt het wel alsof je over de artiekelen heen skipt als je van de 2e en 3e gaat. 
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Met de elastiekjes was het wat lastiger om de website te gebruiken, zeker als je je wijsvinger veel gebruikt. Zeker met de MacBook trackpad ga je makkelijk naar de andere desktop pagina's maar voor de site zelf is het best prima te doen. 
+  Dit kan opgelost worden door de links groot genoeg te maken dat je niet al te veel precisie nodig hebt om de website te gebruiken. 
+  
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  De site heeft nog geen dark modes, dit is iets wat ik zou kunnen toevoegen. 
+  Met de brillen was de font wat lastiger te lezen aangezien deze best dun is. Hier zou ik dus wat aan kunnen veranderen. 
+  Er zit veel contrast tussen alle kleuren waardoor kleurenblinden mensen geen problemen zouden moeten hebben met de kleuren van de site. 
+  
 </details>
 
 
