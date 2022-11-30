@@ -16,7 +16,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Michelle Akkermans
 
   #### Je startniveau:
   hier je startniveau (kies uit zwart, rood óf blauw)
@@ -36,7 +36,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  (https://www.vangoghmuseum.nl/en)
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
@@ -57,6 +57,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  Wat vooral naar voren kwam in de test is dat de site best goed gemaakt is en dat het zeker iets is waar ik naar moet streven als het gaat om accesability. 
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
@@ -113,6 +114,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Basic HTML opzetten ging goed, het was ff zoeken naar alle termen maar daarna ging het wel prima. 
+  Wat nog lastig is, is de basics van de css, vooral de plaatjes. (img achter tekst en de positionering van zowel tekst als img.)
+  Vragen: Wat de beste manier is om die images te positioneren? (grid,flexbox of toch een andere manier.)
 
 
   ### Agenda voor meeting
