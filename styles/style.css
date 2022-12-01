@@ -19,7 +19,7 @@ button, summary {
 :root {
 	/* startje */
 	--color-text:#111;
-	--color-background:#eee;
+	--color-background:#FFCE01;
 }
 
 
@@ -32,3 +32,12 @@ button, summary {
 
 /* jouw code */
 
+body{
+	background-color: var(--color-background);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+	width: 12em;
+	height: 15em;
+}
