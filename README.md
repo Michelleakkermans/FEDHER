@@ -37,7 +37,7 @@
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/permanentcollectionpage.png" width="375px" alt="pagina die gaat over de permanenten collectie van kunst van Van Gogh in het museum.">
  
 </details>
 
