@@ -115,7 +115,7 @@
   ### Agenda voor meeting
   samen met je groepje opstellen -> Sten en Joep
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Sten           | Joep               | student 3    | Michelle         |
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
@@ -125,10 +125,10 @@
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Html was goed, op wat kleine dingetjes na. 
+  - Uitleg over images achter de tekst krijgen gehad. 
+  - uitleg over beste manier van pijltjes bij de <a> gehad. 
+
 
 </details>
 
