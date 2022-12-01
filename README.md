@@ -39,7 +39,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   (https://www.vangoghmuseum.nl/en)
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  Homepage Van Gogh Museum  
   <img src="readme-images/Van Gogh Museum breakdown ss.png" width="375px" alt="homepage van gogh museum site">
 
   #### Screenshot(s) van de tweede pagina (small screen):
