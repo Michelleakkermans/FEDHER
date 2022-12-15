@@ -143,7 +143,9 @@
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  - Lessen hebben veel duidelijk gemaakt.
+  - Door hulp van Sanne goed opweg.
+  
 
   ### Agenda voor meeting
   samen met je groepje opstellen
