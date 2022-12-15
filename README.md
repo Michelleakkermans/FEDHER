@@ -1,7 +1,7 @@
 
 ## Jij
 
-details open>
+<details open>
   <summary>uitwerken voor kick-off werkgroep</summary>
   ### Auteur:
   Michelle Akkermans
