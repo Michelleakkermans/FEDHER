@@ -1,4 +1,11 @@
 # Procesverslag
+Markdown is een simpele manier om HTML te schrijven.  
+Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+
+Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
+
+Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
+
 
 
 
@@ -9,10 +16,10 @@
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Michelle Akkermans
+  Sanne 't Hooft (vervangen door jouw naam)
 
   #### Je startniveau:
- blauw
+  hier je startniveau (kies uit zwart, rood óf blauw)
 
   #### Je focus:
   hier je focus (kies uit responsive óf surface plane)
@@ -29,15 +36,15 @@
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  (https://www.vangoghmuseum.nl/en)
+  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Homepage Van Gogh Museum  
-  <img src="readme-images/Van Gogh Museum breakdown ss.png" width="375px" alt="homepage van gogh museum site">
+  hier de naam van de pagina  
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/thepermanentcollectionpage.png" width="375px" alt="pagina die gaat over de permanenten collectie van kunst van Van Gogh in het museum.">
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -50,32 +57,30 @@
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-  Wat vooral naar voren kwam in de test is dat de site best goed gemaakt is en dat het zeker iets is waar ik naar moet streven als het gaat om accesability. 
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
-  De screenreader deed alles netjes oplezen van de site. Dit is iets wat wil zelf ook echt wil doen met mijn site en ik kan dit dus ook echt als voorbeeld gebruiken. 
+
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
-  Met de muis is de site heel goed en duidelijk te bedienen. Elke button heeft een duidelijke active state en hoover. 
-  Met het toetsenbord is dit hetzelfde geval, lijkt het wel alsof je over de artiekelen heen skipt als je van de 2e en 3e gaat. 
 
-  
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
-  Met de elastiekjes was het wat lastiger om de website te gebruiken, zeker als je je wijsvinger veel gebruikt. Zeker met de MacBook trackpad ga je makkelijk naar de andere desktop pagina's maar voor de site zelf is het best prima te doen. 
-  Dit kan opgelost worden door de links groot genoeg te maken dat je niet al te veel precisie nodig hebt om de website te gebruiken. 
-  
+
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
-  De site heeft nog geen dark modes, dit is iets wat ik zou kunnen toevoegen. 
-  Met de brillen was de font wat lastiger te lezen aangezien deze best dun is. Hier zou ik dus wat aan kunnen veranderen. 
-  Er zit veel contrast tussen alle kleuren waardoor kleurenblinden mensen geen problemen zouden moeten hebben met de kleuren van de site. 
-  
+
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
 </details>
 
 
@@ -107,28 +112,25 @@
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-  Basic HTML opzetten ging goed, het was ff zoeken naar alle termen maar daarna ging het wel prima. 
-  Wat nog lastig is, is de basics van de css, vooral de plaatjes. (img achter tekst en de positionering van zowel tekst als img.)
-  Vragen: Wat de beste manier is om die images te positioneren? (grid,flexbox of toch een andere manier.)
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen -> Sten en Joep
+  samen met je groepje opstellen
 
-  | Sten           | Joep               | student 3    | Michelle         |
+  | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | hamburger menu | html check         | carousel     | Plaatjes positioneren|
+  | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - Html was goed, op wat kleine dingetjes na. 
-  - Uitleg over images achter de tekst krijgen gehad. 
-  - uitleg over beste manier van pijltjes bij de <a> gehad. 
-
+  - punt 1
+  - punt 2
+  - nog een punt
+  - ...
 
 </details>
 
@@ -143,9 +145,7 @@
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-  - Lessen hebben veel duidelijk gemaakt.
-  - Door hulp van Sanne goed opweg.
-  
+
 
   ### Agenda voor meeting
   samen met je groepje opstellen
