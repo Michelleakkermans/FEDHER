@@ -116,7 +116,7 @@ RESPONSIVE?
 ********/
 
 
-
+/*
 @media (min-width:38em) {
 	header button {
 	  display: none;
@@ -127,16 +127,14 @@ RESPONSIVE?
 		background: none; 
 	}
 	nav button {
-		/* JOUW CODE HIER - stap 6 */
 		display: none; 
 	  }
 	nav ul li a {
-		/* JOUW CODE HIER - stap 8 */
 		display: flex; 
 		gap: 1em;
 	}
 }
-
+****/
 
 
 /********** 
