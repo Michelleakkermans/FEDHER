@@ -154,7 +154,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Werk/html check| border radius die niet werkt| button die menu uitklapt| Interval op scroll |
 
 
   ### Verslag van meeting
