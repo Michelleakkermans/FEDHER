@@ -11,7 +11,7 @@
   Blauw
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  Surface plane
  
 </details>
 
@@ -207,7 +207,7 @@
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Het maken van de tweede pagina ging heel soepel. Alleen de images moeten nog even in de juiste maat op de pagina gezet worden en een paar andere klein dingetjes.  
 
 
   ### Agenda voor meeting
