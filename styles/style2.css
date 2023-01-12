@@ -25,7 +25,6 @@ button, summary {
 
 
 
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
@@ -35,10 +34,6 @@ button, summary {
 	--color-text-image:#ffff;
 	--color-background:#FFCE01;
 }
-
-
-
-
 
 /****************/
 /* JOUW STYLING */
@@ -51,12 +46,9 @@ body{
 	font-family: vangogh, Arial, Helvetica, sans-serif;
 }
 
-
-
-
-/*********
-HEADER
-*********/
+/****************/
+/* HEADER */
+/****************/
 
 
 
@@ -109,47 +101,18 @@ header nav ul li a{
 	row-gap: 1em;
 }
 
-
-
-/*******
-RESPONSIVE?
-********/
-
-
-/*
-@media (min-width:38em) {
-	header button {
-	  display: none;
-	}
-	nav {
-		position: static; 
-		transform:none; 
-		background: none; 
-	}
-	nav button {
-		display: none; 
-	  }
-	nav ul li a {
-		display: flex; 
-		gap: 1em;
-	}
-}
-****/
-
-
-/********** 
-MAIN  
-***********/
-
-
-
 main{
 	color: var(--color-text-image);
 }
 
-/******
-positionering van a-tjes
-******/
+
+
+/*****************************/
+/* POSITIONERING VAN A-TJES */
+/****************************/
+
+
+
 main a{ 
 	color: var(--color-text-image);
 	text-decoration: none;
@@ -175,23 +138,35 @@ footer a{
 }
 
 
-/******
-FOOTER
-*******/
+/************/
+/* ALGEMEEN */
+/************/
 
 
 
 h1{
-	padding: 1em;
-	}
+    padding: 1em;
+    }
 
 h2{
 	padding: 1em;
 }
 
+h3{
+    padding: 1em;
+    font-weight: normal;
+}
+
 p{
 	padding: 1em;
 }
+section:first-of-type p:nth-of-type(2){
+    font-weight: bold;
+}
+section:first-of-type p:nth-of-type(4){
+    font-weight: bold;
+}
+
 a{
 	padding: 1em;
 }
@@ -201,7 +176,7 @@ section a{
 }
 
 ul{
-	list-style-type: none;
+    list-style-type: none;    
 }
 
 li{
@@ -213,53 +188,39 @@ section{
 	text-align: left;
 }
 
+section button{
+    width: 15em;
+    height: 4em;
 
-
-
-
-/******* 
-MAIN LIJSTJE  
-*********/
-
-
-
-
-main ul li {
-	position: relative;
-}
-
-main ul li div {
-	position: absolute;
-	bottom:2em;
-	left:1em;
-	right:1em;
-}
-
-main ul li div h3 {
-	padding: 1em;
-   }
-
-main ul li div p {
- padding: 1em;
-}
-
-main ul li div a {
-	margin: 1em;
-   }
-
-/** hover voor a?
-main ul li div a:hover{
-	transform: translateX(1%);
-}**/
-main ul li div h3 em {
-	display:block;
+    padding: 1em;
+    margin: 1.5em;
+    
+	background-color: black;
+	color: var(--color-text-image);
+    border-radius: .4em;
+    border: none;
 }
 
 
-main ul li img{
-	display: block;
-	width: 100%;
-	height: auto;
-	border-radius: 2em;
-	padding: 1em;
+
+/************/
+/* MAIN */
+/************/
+
+
+
+ul li h3{
+    padding: .8em;
+}
+
+ul li img{
+    width: 10em;
+    height: 10em;
+    padding: .8em;
+}
+
+section:nth-of-type(5) img{
+    width: 10em;
+    height: 10em;
+    padding: .8em;
 }
