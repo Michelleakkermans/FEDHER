@@ -171,29 +171,34 @@
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  - Mijn website is al erg toegankelijk. 
+  - Kleine details veranderen zoals een h3 naar een a etc. 
+  - belangrijkste dingen die nog niet kloppen had ik nog niet gemaakt. 
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  States nog toevoegen. (Menu etc) {hoover, focus, active}
+
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
-
-  #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+2e pagina h3 moet a zijn. 
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  Kleurenblind: De website is goed accesible. Goede contrast kleuren gebruikt, ook in de dark mode.  Ook met blurred vision is het alle tekst nog prima te lezen. 
+  Dark mode: De oude dark mode die ik nog wil gaan namaken werkt niet met het systeem mee. Dit zou beter kunnen deze keer.
+  
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Een nieuwe dark mode maken ipv de oud versie namaken. 
 
 </details>
 
