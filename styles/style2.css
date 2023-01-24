@@ -8,15 +8,22 @@
 	font-family: vangogh;
 	src: url(../fonts/GothamRndSSm-Medium_Web.woff2);
 	font-weight: 700;
-  }
+}
+
+
+
 /**************/
 /* CSS REMEDY */
 /**************/
+
+
 *, *::after, *::before {
   box-sizing:border-box; 
   margin: 0;
   padding:0; 
 }
+
+
 
 button, summary {
 	cursor: pointer;
@@ -28,11 +35,14 @@ button, summary {
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
+
+
 :root {
 	/* startje */
 	--color-text: #0000;
 	--color-text-image:#ffff;
 	--color-background:#FFCE01;
+	--link-active-color: rgb(61, 61, 61);
 }
 
 
@@ -173,12 +183,6 @@ footer a{
 
 
 
-a:hover{
-	transform: translateX(1%);
-}
-
-
-
 
 /************/
 /* ALGEMEEN */
@@ -200,7 +204,6 @@ h3{
 
 
 
-
 section:first-of-type p:nth-of-type(2){
     font-weight: bold;
 }
@@ -213,8 +216,9 @@ section:first-of-type p:nth-of-type(4){
 
 
 
-a{
+main a{
 	padding: 1em;
+	position: relative;
 }
 
 
@@ -301,3 +305,97 @@ iframe{
 	height: 100%;
 	object-fit: cover;
 }
+
+
+
+
+/************/
+/* STATES */
+/************/
+
+
+a:focus { 
+	outline: none; 
+	text-decoration:underline;
+	/*font-weight: bold;*/
+}
+
+
+
+a:after {    
+	content: "";
+	bottom: 0;
+	display: block;
+	height: .15em;
+	left: 50%;
+
+	position: absolute;
+	background: black;
+	transition: width 0.3s ease 0s, left 0.3s ease 0s;
+	width: 0;
+}
+
+
+a:hover:after { 
+	width: 100%; 
+	left: 0; 
+}
+
+
+
+a:active {
+	color:var(--link-active-color);
+}
+
+
+
+/*button:first-of-type {	
+	appearance:none;
+	border:none;
+	
+	padding:0;
+	width:3em;
+	aspect-ratio:1/1;
+	
+	font:inherit;
+	
+	font-size:1.5em;
+	
+	display:grid;
+	justify-items:center;
+	align-items:center;
+}
+
+button:first-of-type span {
+	display:inline-block;
+	width:50%;
+	height:.25em;
+	background-color:black;
+	
+	grid-column-start:1;
+	grid-row-start:1;
+	
+	transition:.3s;
+}
+
+button:first-of-type span:nth-of-type(1) {
+	transform:translateY(-.5em);
+}
+
+
+button:first-of-type span:nth-of-type(3) {
+	transform:translateY(.5em);
+}
+
+
+button:first-of-type.open span:nth-of-type(1) {
+	transform:rotate(45deg) scaleX(1.125);
+}
+
+button:first-of-type.open span:nth-of-type(2) {
+	transform:scaleX(0);
+}
+
+button:first-of-type.open span:nth-of-type(3) {
+	transform:rotate(-45deg) scaleX(1.125);
+}*/

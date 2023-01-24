@@ -240,6 +240,9 @@ section{
 MAIN LIJSTJE  
 *********/
 
+div{
+	color: var(--color-text-image);
+}
 
 
 main ul li {
@@ -288,3 +291,20 @@ main ul li a img{
 	border-radius: 2em;
 	padding: 1em;
 }
+
+
+
+/************/
+/* STATES */
+/************/
+
+
+a:active {
+	color:var(--link-active-color);
+}
+
+a:focus { 
+	outline: none; 
+	text-decoration:underline;
+}
+
