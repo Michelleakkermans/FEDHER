@@ -8,7 +8,7 @@
 	font-family: vangogh;
 	src: url(../fonts/GothamRndSSm-Medium_Web.woff2);
 	font-weight: 700;
-  }
+}
 /**************/
 /* CSS REMEDY */
 /**************/
@@ -34,6 +34,21 @@ button, summary {
 	--color-text: #0000;
 	--color-text-image:#ffff;
 	--color-background:#FFCE01;
+}
+
+
+/*********************/
+/*     DARK MODE     */
+/*********************/
+
+
+
+@media (prefers-color-scheme:dark) {
+	:root {
+		--color-text: white;
+		--color-background: #5f5a43;
+		--imageBrightness:.75;
+	}
 }
 
 
@@ -65,6 +80,9 @@ header{
 	position: relative;
 	padding: 1em;
 }
+
+
+
 header img{
 	width: 5em;
 	height: 5em;
@@ -73,6 +91,9 @@ header img{
 	right: 1.5em;
 	top:1.5em;
 }
+
+
+
 header button{
 	padding: 1em;
 	margin:1em;
@@ -80,6 +101,8 @@ header button{
 	color: var(--color-text-image);
 	border-radius: 1em;
 }
+
+
 
 header nav{
 	background-color: var(--color-background);
@@ -92,12 +115,20 @@ header nav{
 	transform:translateX(-99%);
 	z-index: 10;
 }
+
+
+
 nav.open {
 	transform:translateX(0%);
 }
+
+
+
 header ul{
 	padding: 1em;
 }
+
+
 
 header nav ul li a{
 	color: black;
@@ -111,31 +142,6 @@ header nav ul li a{
 
 
 
-/*******
-RESPONSIVE?
-********/
-
-
-/*
-@media (min-width:38em) {
-	header button {
-	  display: none;
-	}
-	nav {
-		position: static; 
-		transform:none; 
-		background: none; 
-	}
-	nav button {
-		display: none; 
-	  }
-	nav ul li a {
-		display: flex; 
-		gap: 1em;
-	}
-}
-****/
-
 
 /********** 
 MAIN  
@@ -143,23 +149,34 @@ MAIN
 
 
 
+
 main{
-	color: var(--color-text-image);
+	color: var(--color-text);
 }
+
+
+
 
 /******
 positionering van a-tjes
 ******/
+
+
+
+
 main a{ 
 	color: var(--color-text-image);
 	text-decoration: none;
 	font-weight: bold;
 }
 
+
+
 section a{
 	display: flex;
 	row-gap: 1em;
 }
+
 
 
 footer a{
@@ -170,9 +187,14 @@ footer a{
 	display: flex;
 	row-gap: 1em;
 }
- a:hover{
+
+
+
+a:hover{
 	transform: translateX(1%);
 }
+
+
 
 
 /******
@@ -181,38 +203,35 @@ FOOTER
 
 
 
-h1{
-	padding: 1em;
-	}
 
-h2{
+h1, h2, p, a{
 	padding: 1em;
 }
 
-p{
-	padding: 1em;
-}
-a{
-	padding: 1em;
-}
+
 
 section a{
 	color: black;
 }
 
+
+
 ul{
 	list-style-type: none;
 }
+
+
 
 li{
 	display: block;
 }
 
+
+
 section{
 	color: black;
 	text-align: left;
 }
-
 
 
 
@@ -223,10 +242,11 @@ MAIN LIJSTJE
 
 
 
-
 main ul li {
 	position: relative;
 }
+
+
 
 main ul li div {
 	position: absolute;
@@ -235,28 +255,33 @@ main ul li div {
 	right:1em;
 }
 
+
+
 main ul li div h3 {
 	padding: 1em;
-   }
+}
+
+
 
 main ul li div p {
  padding: 1em;
 }
 
+
+
 main ul li div a {
 	margin: 1em;
-   }
+}
 
-/** hover voor a?
-main ul li div a:hover{
-	transform: translateX(1%);
-}**/
+
+
 main ul li div h3 em {
 	display:block;
 }
 
 
-main ul li img{
+
+main ul li a img{
 	display: block;
 	width: 100%;
 	height: auto;
