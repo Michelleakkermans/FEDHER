@@ -231,7 +231,7 @@
   - Kleine foutjes uit code gehaald.
   - Uitleg over de object fit voor plaatjes.
   - Button font size is nu gefixt. 
-  - ...
+
 
 </details>
 
@@ -245,19 +245,20 @@
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/indexresult.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/collectionresult.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/goedimage.png" width="375px" alt="top, javascript tekst">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/lastigimage.jpg" width="375px" alt="bummer, hamburger van het hamburger menu.">
 </details>
 
 
