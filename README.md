@@ -258,7 +258,7 @@
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/lastigimage.jpg" width="375px" alt="bummer, hamburger van het hamburger menu.">
+  <img src="readme-images/lastigimage.png" width="375px" alt="bummer, hamburger van het hamburger menu.">
 </details>
 
 
