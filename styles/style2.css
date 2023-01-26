@@ -1,3 +1,10 @@
+/**************/
+/*    FONT    */
+/**************/
+
+
+
+
 @font-face {
 	font-family: vangogh;
 	src: url(../fonts/GothamRndSSm-Book_Web.woff2);
@@ -12,9 +19,12 @@
 
 
 
+
 /**************/
 /* CSS REMEDY */
 /**************/
+
+
 
 
 *, *::after, *::before {
@@ -38,6 +48,7 @@ button, summary {
 
 
 
+
 :root {
 	/* startje */
 	--color-text-image:#ffff;
@@ -48,9 +59,11 @@ button, summary {
 
 
 
+
 /*********************/
 /*     DARK MODE     */
 /*********************/
+
 
 
 
@@ -143,31 +156,6 @@ header nav ul li a{
 
 
 
-/*****************************/
-/* POSITIONERING VAN A-TJES */
-/****************************/
-
-
-
-
-main a{ 
-	color: var(--color-text);
-	text-decoration: none;
-	font-weight: bold;
-
-	padding: 1em;
-	position: relative;
-}
-
-
-/*n+2 is vanaf 2e sectie*/
-section:nth-of-type(N+2) a{
-	display: flex;
-	row-gap: 1em;
-}
-
-
-
 /************/
 /* ALGEMEEN */
 /************/
@@ -192,6 +180,16 @@ h1, h2, p{
 h3{
     padding: 1em;
     font-weight: normal;
+}
+
+
+main a{ 
+	color: var(--color-text);
+	text-decoration: none;
+	font-weight: bold;
+
+	padding: 1em;
+	position: relative;
 }
 
 
@@ -239,9 +237,19 @@ section button a{
 }
 
 
+/*n+2 is vanaf 2e sectie*/
+section:nth-of-type(N+2) a{
+	display: flex;
+	row-gap: 1em;
+}
+
+
+
+
 /************/
 /* MAIN */
 /************/
+
 
 
 
@@ -281,6 +289,8 @@ iframe{
 /************/
 /* STATES */
 /************/
+
+
 
 
 a:focus { 
