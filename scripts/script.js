@@ -20,3 +20,5 @@ deSluitButton.addEventListener("click", sluitMenu)
 function sluitMenu(){
   deNav.classList.remove("open");
 }
+
+

@@ -37,13 +37,15 @@ button, summary {
 /*********************/
 
 
+
 :root {
 	/* startje */
-	--color-text: #0000;
 	--color-text-image:#ffff;
 	--color-background:#FFCE01;
-	--link-active-color: rgb(61, 61, 61);
+	--link-active-color:#7f6700; 
+	--button-hover:#4c3d00; 
 }
+
 
 
 /*********************/
@@ -54,25 +56,9 @@ button, summary {
 
 @media (prefers-color-scheme:dark) {
 	:root {
-		--color-text: white;
 		--color-background: #5f5a43;
 		--imageBrightness:.75;
 	}
-}
-
-
-
-/****************/
-/*     BODY     */
-/****************/
-
-
-
-
-body{
-	color: var(--color-text);
-	background-color: var(--color-background);
-	font-family: vangogh, Arial, Helvetica, sans-serif;
 }
 
 
@@ -109,6 +95,13 @@ header button{
 	background-color: black;
 	color: var(--color-text-image);
 	border-radius: 1em;
+}
+
+
+
+header nav button{
+	padding: 1em;
+	margin:2em;
 }
 
 
@@ -158,29 +151,20 @@ header nav ul li a{
 
 
 main a{ 
-	color: var(--color-text-image);
-	text-decoration: none;
-	font-weight: bold;
-}
-
-
-
-section a{
-	display: flex;
-	row-gap: 1em;
-}
-
-
-
-footer a{
-	color: black;
+	color: var(--color-text);
 	text-decoration: none;
 	font-weight: bold;
 
+	padding: 1em;
+	position: relative;
+}
+
+
+/*n+2 is vanaf 2e sectie*/
+section:nth-of-type(N+2) a{
 	display: flex;
 	row-gap: 1em;
 }
-
 
 
 
@@ -188,6 +172,14 @@ footer a{
 /* ALGEMEEN */
 /************/
 
+
+
+
+body{
+	color: black;
+	background-color: var(--color-background);
+	font-family: vangogh, Arial, Helvetica, sans-serif;
+}
 
 
 
@@ -216,19 +208,6 @@ section:first-of-type p:nth-of-type(4){
 
 
 
-main a{
-	padding: 1em;
-	position: relative;
-}
-
-
-
-section a{
-	color: black;
-}
-
-
-
 ul{
     list-style-type: none;    
 }
@@ -242,24 +221,16 @@ li{
 
 
 section{
-	color: black;
+	color: var(--color-text);
 	text-align: left;
 }
 
 
 
-section button{
-    width: 15em;
-	height: 4em;
-
-    padding: 1em;
-    margin: 1.5em;
-    
-	background-color: black;
-	color: var(--color-text-image);
-    border-radius: .4em;
-	border: none;
-	position: sticky;
+section:first-of-type a{
+	padding: .5em;
+	line-height: 2em;
+	font-size: 1.5em;
 }
 
 section button a{
@@ -290,7 +261,7 @@ ul li img{
 
 
 
-section:nth-of-type(3) img{
+section:nth-of-type(2) img{
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
@@ -301,9 +272,7 @@ section:nth-of-type(3) img{
 
 iframe{
 	border: none;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+	padding: 1em;
 }
 
 
@@ -317,30 +286,12 @@ iframe{
 a:focus { 
 	outline: none; 
 	text-decoration:underline;
-	/*font-weight: bold;*/
 }
 
 
-
-a:after {    
-	content: "";
-	bottom: 0;
-	display: block;
-	height: .15em;
-	left: 50%;
-
-	position: absolute;
-	background: black;
-	transition: width 0.3s ease 0s, left 0.3s ease 0s;
-	width: 0;
+a:hover{
+	transform: translateX(1%);
 }
-
-
-a:hover:after { 
-	width: 100%; 
-	left: 0; 
-}
-
 
 
 a:active {
@@ -348,54 +299,9 @@ a:active {
 }
 
 
-
-/*button:first-of-type {	
-	appearance:none;
-	border:none;
-	
-	padding:0;
-	width:3em;
-	aspect-ratio:1/1;
-	
-	font:inherit;
-	
-	font-size:1.5em;
-	
-	display:grid;
-	justify-items:center;
-	align-items:center;
-}
-
-button:first-of-type span {
-	display:inline-block;
-	width:50%;
-	height:.25em;
-	background-color:black;
-	
-	grid-column-start:1;
-	grid-row-start:1;
-	
-	transition:.3s;
-}
-
-button:first-of-type span:nth-of-type(1) {
-	transform:translateY(-.5em);
+button:hover {
+	background-color: var(--button-hover);
 }
 
 
-button:first-of-type span:nth-of-type(3) {
-	transform:translateY(.5em);
-}
 
-
-button:first-of-type.open span:nth-of-type(1) {
-	transform:rotate(45deg) scaleX(1.125);
-}
-
-button:first-of-type.open span:nth-of-type(2) {
-	transform:scaleX(0);
-}
-
-button:first-of-type.open span:nth-of-type(3) {
-	transform:rotate(-45deg) scaleX(1.125);
-}*/

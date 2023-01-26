@@ -34,6 +34,8 @@ button, summary {
 	--color-text: #0000;
 	--color-text-image:#ffff;
 	--color-background:#FFCE01;
+	--link-active-color:#7f6700; 
+	--button-hover:#4c3d00;
 }
 
 
@@ -53,14 +55,6 @@ button, summary {
 
 
 
-
-
-/****************/
-/* JOUW STYLING */
-/****************/
-
-/* jouw code */
-
 body{
 	background-color: var(--color-background);
 	font-family: vangogh, Arial, Helvetica, sans-serif;
@@ -69,9 +63,9 @@ body{
 
 
 
-/*********
-HEADER
-*********/
+/************/
+/*  HEADER  */
+/************/
 
 
 
@@ -102,6 +96,10 @@ header button{
 	border-radius: 1em;
 }
 
+header nav button{
+	padding: 1em;
+	margin:2em;
+}
 
 
 header nav{
@@ -143,23 +141,9 @@ header nav ul li a{
 
 
 
-/********** 
-MAIN  
-***********/
-
-
-
-
-main{
-	color: var(--color-text);
-}
-
-
-
-
-/******
-positionering van a-tjes
-******/
+/************/
+/*    A     */
+/************/
 
 
 
@@ -190,17 +174,19 @@ footer a{
 
 
 
-a:hover{
-	transform: translateX(1%);
+
+
+
+/************/
+/* ALGEMEEN */
+/************/
+
+
+
+
+main{
+	color: var(--color-text);
 }
-
-
-
-
-/******
-FOOTER
-*******/
-
 
 
 
@@ -236,9 +222,12 @@ section{
 
 
 
-/******* 
-MAIN LIJSTJE  
-*********/
+/****************/
+/* MAIN LIJSTJE */
+/****************/
+
+
+
 
 div{
 	color: var(--color-text-image);
@@ -294,17 +283,29 @@ main ul li a img{
 
 
 
+
+
 /************/
 /* STATES */
 /************/
 
-
-a:active {
-	color:var(--link-active-color);
-}
 
 a:focus { 
 	outline: none; 
 	text-decoration:underline;
 }
 
+
+a:hover{
+	transform: translateX(1%);
+}
+
+
+a:active {
+	color:var(--link-active-color);
+}
+
+
+button:hover {
+	background-color: var(--button-hover);
+}
